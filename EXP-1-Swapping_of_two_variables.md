@@ -1,1 +1,36 @@
+# EXP 1. 
+## The boys Surya and Vijay had been playing switch and swap every time it suited their fancy since they had shared two balls. They had a temporary basket to drop the ball for swapping from each other. Write a python program to swap the colour of balls between Surya and Vijay.
 
+## AIM:
+To write a python program for swapping of two values
+## EQUIPEMENT'S REQUIRED: 
+PC
+Anaconda - Python 3.7
+## ALGORITHM: 
+### Step 1:
+Get the two values from the user
+### Step 2: 
+Assign the value of second variable to a temporary variable 
+### Step 3: 
+Assign the value of the first variable to the second variable.
+### Step 4:  
+Assign the value in temporary variable to the first variable
+### Step 5: 
+Print both the values it would be interchanged
+### Step 6: 
+End the program
+## PROGRAM:
+```
+a=int(input())
+b=int(input())
+c=b
+b=a
+a=c
+print("Swapped values are:",a,b)
+```
+## OUTPUT:
+![SWAPPING TWO VARIABLES](https://github.com/SVENGADAKRISHNAN/PYTHON-PROGRAMMING/assets/147473084/03e40e8d-cb16-4983-94f5-f3895f9c42d7)
+
+
+## RESULT:
+The output for circulate the values of n variables is successfull.
